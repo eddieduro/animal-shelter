@@ -1,0 +1,37 @@
+.intro{
+  font-style: italic;
+
+}
+.pet-column{
+  width: 250px;
+  float:left;
+  border: 2px solid black;
+  margin: 5px;
+  background-color: #c0c0c0;
+
+}
+.pet-column img {
+  width: 200px;
+  height: 150px;
+  padding: 10px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pet-column h3 {
+  text-align: center;
+}
+
+.pet-column h4 {
+  text-align: center;
+  font-style: italic;
+}
+
+.pet-column p {
+  font-family: sans-serif;
+  padding: 10px;
+}
+
+.pet-column a{
+  font-size: 12px;
+}
