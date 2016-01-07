@@ -35,3 +35,39 @@
 .pet-column a{
   font-size: 12px;
 }
+
+.pet-div {
+  width: 100%;
+}
+/*Media Queries*/
+@media screen and (max-width: 1072px) {
+ .pet-column{
+   width: 80%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+
+ }
+ .pet-column img {
+   width: 400px;
+   height: 350px;
+ }
+ .pet-column p {
+   max-width: 400px;
+   text-align: center;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+}
+
+@media screen and (max-width: 561px){
+  .pet-column img {
+    width: 80%;
+    height: 80%;
+  }
+}
+@media screen and (min-width: 1073px) {
+  .intro {max-width: 1072px;}
+}
